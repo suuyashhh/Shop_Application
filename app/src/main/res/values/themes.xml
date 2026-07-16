@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SmartParking" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+
+        <!-- STATUS BAR SAME AS APP BACKGROUND -->
+        <item name="android:statusBarColor">@color/app_bg_light_green</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+</resources>
