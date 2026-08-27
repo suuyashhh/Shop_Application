@@ -4,11 +4,7 @@ plugins {
 
 android {
     namespace 'com.example.shop'
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.example.shop"
@@ -39,6 +35,7 @@ dependencies {
     implementation libs.constraintlayout
     implementation libs.swiperefreshlayout
     implementation libs.browser
+    implementation libs.android.browser.helper
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core

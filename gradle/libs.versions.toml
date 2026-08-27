@@ -9,6 +9,7 @@ activity = "1.8.0"
 constraintlayout = "2.2.1"
 swiperefreshlayout = "1.2.0"
 browser = "1.8.0"
+androidBrowserHelper = "2.0.1"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -20,6 +21,7 @@ activity = { group = "androidx.activity", name = "activity", version.ref = "acti
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 swiperefreshlayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swiperefreshlayout" }
 browser = { group = "androidx.browser", name = "browser", version.ref = "browser" }
+android-browser-helper = { group = "com.github.GoogleChrome.android-browser-helper", name = "androidbrowserhelper", version.ref = "androidBrowserHelper" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
